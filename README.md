@@ -1,9 +1,9 @@
-# partial_electrical_discharges-classification-quantum
+﻿# partial_electrical_discharges-classification-quantum
 Creation of electric discharge classifiers with quantum circuits
 
 
 
-# Step A: Running the "Binary_features_generation.ipynb" notebook for feature generation
+# Step A: Running the "binary_features_generation.ipynb" notebook for feature generation
 
 This notebook is responsible for generating the transformed images and obtaining the thirteen attributes (features) described in **Section 2: Image processing and feature extraction method** of the article. The process is based on feature extraction from electrical discharge images, which are stored in the `/IMAGES` directory and its respective subdirectories: `/IMAGES/ARC`, `/IMAGES/BREAK`, `/IMAGES/NO_PD`, and `/IMAGES/PD`.
 
@@ -38,7 +38,7 @@ Note: The binary_features_generation_git_hub.ipynb notebook is self-explanatory 
 
 
 
-# Step B: Running the "FIT_DP_NODP_CIRCUIT.ipynb" notebook to adjust the parameters of the Quantum Variational (QVM) model
+# Step B: Running the "FIT_DP_NODP_QVM.ipynb" notebook to adjust the parameters of the Quantum Variational (QVM) model
 
 This notebook is used to find the optimal parameters of the first **Quantum Variational (QVM)** model, the results of which are presented in **Table 1** of the article (**Optimal parameters for the QVM circuits with 10 and 11 parameters**). Specifically, this notebook focuses on optimizing the **10-parameter** circuit corresponding to the **PD_NOPD** column of that table.
 
@@ -196,6 +196,13 @@ This notebook allows verifying the performance of the optimized QVM model in a r
 
 
 Step D: Running the Quantum Kernel Machine Learning (QKM).model on real quantum computers .
+
+
+This notebook (`QKM_verification_two_qubits.ipynb`) is used to verify the performance of the **Quantum Kernel Model (QKM)**
+En este step  the kernel (quantum kernel model estimation QKM) is estimated and used with the support vector machine SVM. It is done for two, three and eight qubits. 
+
+
+**Note:** This notebook is also self-explanatory and contains detailed comments in each cell to facilitate its understanding.
 
 
 
