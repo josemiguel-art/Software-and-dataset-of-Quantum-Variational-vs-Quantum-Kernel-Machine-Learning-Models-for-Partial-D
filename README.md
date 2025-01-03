@@ -206,7 +206,7 @@ En este step  the kernel (quantum kernel model estimation QKM) is estimated and 
 
 
 
-
+Monzón-Verona, J. M.; García-Alonso, S.; Santana-Martín, F. J. Quantum Variational vs Quantum Kernel Machine Learning Models for Partial Discharge Classification in Dielectric Oils. Preprints 2024, 2024110827. https://doi.org/10.20944/preprints202411.0827.v1
 
 
 
